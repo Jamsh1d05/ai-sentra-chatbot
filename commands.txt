@@ -1,0 +1,4 @@
+latest_bulletins - Latest bulletins
+ai - Ask AI
+settings - Settings
+help - About bot info

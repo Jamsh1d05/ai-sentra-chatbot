@@ -1,0 +1,17 @@
+
+.env
+logs/
+data/
+sentra-bot/
+Lib/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.lib
+*.so
+*.dylib
+
+# Ignore IDE config
+.vscode/

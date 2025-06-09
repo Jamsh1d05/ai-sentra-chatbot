@@ -1,0 +1,33 @@
+	
+			SENTRA BOT 
+======================================
+
+--------------------------------------
+		Database Setup
+
+-Subscrirption source TEXT
+-Subscription status BOOLEAN
+
+
+--------------------------------------
+		NOTIFICATION LOGIC
+
+
+CONTENT OF THE NOTIFICATION
+
+-CVE-ID
+-Severity Level
+-Description button
+
+
+BACKEND LOGIC
+
+-AppScheduler
+-Periodic update (hour or minute)
+-Comparing old bulletin in redis
+-------------------------------------
+
+
+
+======================================
+

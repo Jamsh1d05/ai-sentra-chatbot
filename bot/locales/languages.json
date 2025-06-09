@@ -1,0 +1,89 @@
+{
+    "en": {
+        "welcome": "👋 Welcome to SENTRA — your personal AI powered cybersecurity bulletin assistant.Stay ahead of emerging threats with real-time CVE alerts, curated from trusted sources like the NVD. SENTRA empowers you to monitor vulnerabilities by keywords, technologies, or vendors relevant to you. Use /help to explore all available commands and features.",
+        "language_changed": "✅ Language has been changed to English!",
+        "main_menu": {
+            "bulletins": "🔍 Latest Bulletins",
+            "recommendation": "My Subscriptions",
+            "tools": "🧰 Tools",
+            "settings": "⚙ Settings",
+            "help": "❓ Help and About"
+        },
+        "risk_assessment": {
+            "full_scan":"🔍 Full Scan (IOC)",
+            "virus_total": "🦠 Virus Total",
+            "shodan": "🌐 Shodan",
+            "censys": "🔍 Censys",
+            "abuse_ipdb": "📛 AbuseIPDB",
+            "whois": "🔍 Whois",
+            "hibp": "🕵️ HIBP (Email/Leak Check)",
+            "hybrid_analysis": "🧠 Hybrid Analysis (Malware)",
+            "analyze_file": "📂 Analyze Log file",
+            "back": "🔙 Back",
+            "cancel":"✖️ Cancel"
+        },
+        "settings": {
+            "notifications": "Notifications",
+            "language": "Language",
+            "back": "Exit"
+        }
+    },
+    "ru": {
+        "welcome": "🎉 Добро пожаловать! Вы успешно зарегистрировались.",
+        "language_changed": "✅ Язык изменён на Русский!",
+        "main_menu": {
+            "bulletins": "🔍 Бюллетени",
+            "recommendation": "My Subscriptions",
+            "tools": "🧰 Инструменты",
+            "settings": "⚙ Настройки",
+            "help": "❓ Помощь и О программе"
+        },
+        "risk_assessment": {
+            "full_scan": "🔍 Полное сканирование (IOC)",
+            "virus_total": "🦠 Virus Total",
+            "shodan": "🌐 Shodan",
+            "censys": "🔍 Censys",
+            "abuse_ipdb": "📛 AbuseIPDB",
+            "whois": "🔍 Whois",
+            "hibp": "🕵️ HIBP (Проверка Email/Утечек)",
+            "hybrid_analysis": "⚗️ Гибридный анализ",
+            "analyze_file": "📂 Анализ Лог файла",
+            "back": "🔙 Назад",
+            "cancel": "✖️ Отмена"
+        },
+        "settings": {
+            "notifications": "Уведомления",
+            "language": "Язык",
+            "back": "Выйти"
+        }
+    },
+    "kk": {
+        "welcome": "🎉 Қош келдіңіз! Сіз сәтті тіркелдіңіз.",
+        "language_changed": "✅ Тіл Қазақшаға өзгертілді!",
+        "main_menu": {
+            "bulletins": "🔍 Бюллетеньдер",
+            "recommendation": "My Subscriptions",
+            "tools": "🧰 Құралдар",
+            "settings": "⚙ Баптаулар",
+            "help": "❓ Анықтама және бағдарлама туралы"
+        },
+        "risk_assessment": {
+            "full_scan": "🔍 Толық сканерлеу(IOC)",
+            "virus_total": "Virus Total",
+            "shodan": "🌐 Shodan",
+            "censys": "🔍 Censys",
+            "abuse_ipdb": "📛 AbuseIPDB",
+            "whois": "🔍 Whois",
+            "hibp": "🕵️ HIBP (Email/Ақпараттың таралуын тексеру)",
+            "hybrid_analysis": "⚗️ Гибридті талдау",
+            "analyze_file": "📂 Лог файл тексеру",
+            "back": "🔙 Артқа",
+            "cancel": "✖️ Бас тарту"
+        },
+        "settings": {
+            "notifications": "Хабарламалар",
+            "language": "Тіл",
+            "back": "Шыгу"
+        }
+    }
+}
