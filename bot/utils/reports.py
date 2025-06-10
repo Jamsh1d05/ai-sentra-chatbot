@@ -410,38 +410,3 @@ class SecurityReportGenerator:
         doc.build(story)
         return tmp_path
 
-'''
-Usage
-
-def generate_vt_pdf(input_type, query, attributes):
-    """Drop-in replacement for your existing function"""
-    generator = SecurityReportGenerator()
-    return generator.generate_vt_pdf(input_type, query, attributes)
-
-'''
-
-
-'''
-# Additional utility functions for future AI integration
-class AIReportEnhancer:
-    """Future class for AI-powered report enhancements"""
-    
-    @staticmethod
-    def analyze_threat_context(attributes, input_type):
-        """Placeholder for AI threat context analysis"""
-        # Future: Integration with OpenAI API for threat explanation
-        pass
-    
-    @staticmethod
-    def generate_executive_summary(attributes, input_type):
-        """Placeholder for AI-generated executive summaries"""
-        # Future: AI-powered summary generation
-        pass
-    
-    @staticmethod
-    def recommend_mitigations(threat_level, input_type, attributes):
-        """Placeholder for AI-powered mitigation recommendations"""
-        # Future: Context-aware mitigation strategies
-        pass
-
-'''
