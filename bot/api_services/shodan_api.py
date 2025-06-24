@@ -7,7 +7,7 @@ KEY = SHODAN_API_KEY
 SHODAN_BASE_URL = "https://api.shodan.io"
 
 class ShodanService:
-    def __init__(self, api_key: str):
+    def __init__(self, api_key: str): 
         self.api_key = api_key
         self.base_url = SHODAN_BASE_URL
 
