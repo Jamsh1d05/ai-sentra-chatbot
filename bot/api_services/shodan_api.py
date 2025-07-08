@@ -3,6 +3,7 @@ import asyncio
 import logging
 from bot.config import SHODAN_API_KEY
 
+#Requires API key, need to be added to .env file 
 KEY = SHODAN_API_KEY
 SHODAN_BASE_URL = "https://api.shodan.io"
 
@@ -57,3 +58,5 @@ class ShodanService:
             f"🔹 Open Ports: {', '.join(map(str, open_ports)) or 'None'}\n"
             f"🔍 Detected Services:\n{services if services else 'No detailed services listed.'}"
         )
+
+
