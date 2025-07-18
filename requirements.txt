@@ -9,7 +9,6 @@ reportlab==4.4.1
 beautifulsoup4==4.12.3
 tqdm==4.66.4
 python-dateutil==2.9.0
-idna==3.7
 yarl==1.9.4
 multidict==6.0.5
 typing-extensions==4.12.0
