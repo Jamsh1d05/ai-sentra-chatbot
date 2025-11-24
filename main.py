@@ -30,7 +30,7 @@ async def check_and_notify():
         await notification_service.send_cve_notifications()
 
     except Exception as e:
-        logging.error(f"❌ Error in check_and_notify: {e}")
+        logging.error(f"Error in check_and_notify: {e}")
 
 async def main():
     bot = Bot(token=BOT_TOKEN)
@@ -52,12 +52,12 @@ async def main():
     scheduler.start()
 
     try:
-        logging.info("🤖 Bot is running...")
+        logging.info("Bot is running...")
         await dp.start_polling(bot)
     except Exception as e:
-        logging.error(f"❌ Error: {e}")
+        logging.error(f"Error: {e}")
     finally:
-        logging.info("🛑 Bot is shutting down...")
+        logging.info("Bot is shutting down...")
         await bot.session.close()
         scheduler.shutdown()
 
@@ -65,4 +65,5 @@ if __name__ == "__main__":
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        logging.info("🛑 Bot stopped by user.")
+        logging.info("Bot stopped by user.")
+
