@@ -52,7 +52,7 @@ async def handle_ai_query(message: Message):
 
     '''
     if len(reply) > 4096:
-        await message.answer("⚠️ The response is too long. Sending in chunks...")
+        await message.answer("The response is too long. Sending in chunks...")
         chunks = [reply[i:i + 4096] for i in range(0, len(reply), 4096)]
         for chunk in chunks:
             await message.answer(chunk, parse_mode="MarkdownV2")
@@ -91,3 +91,4 @@ async def handle_ai_query(message: Message):
 
 
     await message.answer(help_text, parse_mode="MarkdownV2")
+
